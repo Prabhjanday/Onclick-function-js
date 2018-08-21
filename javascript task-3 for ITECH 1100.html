@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onclick page with javascript</title>
+
+	<style type="text/css">
+	* { font-family: Georgia; }
+body { background: #ccc; }
+h1 { text-align: center; }
+div{
+  /*width:200px;*/
+  text-align:center;
+  padding:10px;
+}
+input{
+  padding:10px;
+  margin:10px;
+}
+</style>
+<script type="text/javascript">
+	function pk()
+{
+var abc = document.getElementById('usr').value;
+alert(abc)
+}
+	
+</script>
+</head>
+<body>
+
+
+
+<div>
+<h1>Welcome to my cool page</h1>
+<p id="my_message"></p>
+username <input type="text" placeholder="Enter your username" class="uname" id="usr">
+<br/>
+password<input type="password" placeholder="Enter your password">
+<br/>
+<button type="button" id="btn" onclick="pk();">Login button</button>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
